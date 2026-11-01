@@ -12,5 +12,5 @@ residuo = residuo % 10000;
 billetes_5000 = residuo / 5000;
 residuo = residuo % 5000;
 
-Console.WriteLine($"Cantidad de billetes entregados es billetes de 50000: {billetes_50000}, billetes de 20000: {billetes_20000}, billetes de 10000: {billetes_10000}, billetes de 5000: {billetes_5000} y el resto no entregado es : {residuo}");
+Console.WriteLine($"Cantidad de billetes entregados es billetes de 50000: {billetes_50000}, billetes de 20000: {billetes_20000}, billetes de 10000: {billetes_10000}, billetes de 5000: {billetes_5000} y el resto no entregado es: {residuo}");
 
